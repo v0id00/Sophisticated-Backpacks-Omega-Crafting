@@ -1,0 +1,6 @@
+{
+  "item.sophisticatedbackpacksomegacrafting.crafting_upgrade_omega_tier": "Crafting Upgrade Omega Tier",
+  "tooltip.sophisticatedbackpacksomegacrafting.crafting_upgrade_omega_tier": "Combines 8 workstation upgrades into one slot",
+  "tooltip.sophisticatedbackpacksomegacrafting.conflicts_with": "Cannot be used together with %s while Omega Crafting is installed",
+  "itemGroup.sophisticatedbackpacksomegacrafting": "Sophisticated Backpacks: Omega Crafting"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SCA",
+    "BNJ",
+    "FLM"
+  ],
+  "key": {
+    "S": {
+      "item": "sophisticatedbackpacks:stonecutter_upgrade"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:crafting_upgrade"
+    },
+    "A": {
+      "item": "sophisticatedbackpacks:smithing_upgrade"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:anvil_upgrade"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "J": {
+      "item": "sophisticatedbackpacks:advanced_jukebox_upgrade"
+    },
+    "F": {
+      "item": "sophisticatedbackpacks:auto_blasting_upgrade"
+    },
+    "L": {
+      "item": "sophisticatedbackpacks:auto_smelting_upgrade"
+    },
+    "M": {
+      "item": "sophisticatedbackpacks:auto_smoking_upgrade"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacksomegacrafting:crafting_upgrade_omega_tier",
+    "count": 1
+  }
+}

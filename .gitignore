@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.launch
+.settings/
+.classpath
+.project
+eclipse/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NeoForge run configs / generated
+run/
+runs/
+src/generated/
