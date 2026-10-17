@@ -13,14 +13,14 @@ description='''${mod_description}'''
 [[dependencies.${mod_id}]]
 modId="sophisticatedcore"
 type="required"
-versionRange="[1.4,1.5)"
+versionRange="[1.5,1.6)"
 ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="sophisticatedbackpacks"
 type="required"
-versionRange="[3.25,3.26)"
+versionRange="[3.26,3.27)"
 ordering="AFTER"
 side="BOTH"
 

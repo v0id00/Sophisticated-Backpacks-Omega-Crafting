@@ -21,8 +21,8 @@ The omega upgrade conflicts with installing those upgrades separately. Items sto
 |-----|---------|
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1+ |
-| Sophisticated Core | 1.4.x |
-| Sophisticated Backpacks | 3.25.x |
+| Sophisticated Core | 1.5.x |
+| Sophisticated Backpacks | 3.26.x |
 
 ## Build
 
@@ -30,7 +30,7 @@ The omega upgrade conflicts with installing those upgrades separately. Items sto
 ./gradlew build
 ```
 
-Output: `build/libs/sophisticatedbackpacksomegacrafting-1.21.1-1.0.0.jar`
+Output: `build/libs/sophisticatedbackpacksomegacrafting-1.21.1-1.0.1.jar`
 
 Copy the jar into your instance `mods/` folder.
 

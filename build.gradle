@@ -69,11 +69,11 @@ sourceSets.main.resources {
 }
 
 dependencies {
-    // Sophisticated Backpacks via CurseForge Maven — any 3.25.x (project 422301, file 8220286 = v3.25.55)
-    implementation "curse.maven:sophisticated-backpacks-422301:8220286"
+    // Sophisticated Backpacks via Modrinth Maven — newest 1.21.1 build (3.26.x)
+    implementation "maven.modrinth:sophisticated-backpacks:1.21.1-3.26.12.2208"
 
-    // Sophisticated Core via Modrinth Maven — any 1.4.x
-    implementation "maven.modrinth:sophisticated-core:1.21.1-1.4.51.1992"
+    // Sophisticated Core via Modrinth Maven — newest 1.21.1 build (1.5.x)
+    implementation "maven.modrinth:sophisticated-core:1.21.1-1.5.13.2404"
 }
 
 jar {
