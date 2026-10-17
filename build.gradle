@@ -68,6 +68,27 @@ sourceSets.main.resources {
     srcDir 'src/generated/resources'
 }
 
+processResources {
+    var expandProps = [
+            'loader_version_range'   : project.loader_version_range,
+            'neo_version_range'      : project.neo_version_range,
+            'minecraft_version_range': project.minecraft_version_range,
+            'mod_id'                 : project.mod_id,
+            'mod_version'            : project.mod_version,
+            'mod_name'               : project.mod_name,
+            'mod_license'            : project.mod_license,
+            'mod_authors'            : project.mod_authors,
+            'mod_description'        : project.mod_description,
+            'mod_logo_file'          : project.mod_logo_file,
+            'mod_display_url'        : project.mod_display_url,
+            'mod_issue_tracker_url'  : project.mod_issue_tracker_url
+    ]
+    filesMatching(['META-INF/neoforge.mods.toml', 'pack.mcmeta']) {
+        expand expandProps
+    }
+    inputs.properties(expandProps)
+}
+
 dependencies {
     // Sophisticated Backpacks via Modrinth Maven — newest 1.21.1 build (3.26.x)
     implementation "maven.modrinth:sophisticated-backpacks:1.21.1-3.26.12.2208"
